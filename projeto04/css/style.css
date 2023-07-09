@@ -193,7 +193,38 @@ a {
     0%,100% {top: 10px;}
     50% {top: 25px;}
 }
+.experiencia h2,
+.experiencia h3,
+.experiencia p {
+    
+   
+color: blue;
+    text-align: center;
+}
 
+.experiencia-row {
+    display: flex;
+    justify-content: center;
+}
+.experiencia {
+    
+   
+    padding: 20px;
+    }
+    .experiencia {
+    
+   
+    padding-top: 10px;
+        
+       
+    padding-bottom: 10px;
+        
+       
+    padding-left: 20px;
+        
+       
+    padding-right: 20px;
+    }
 div.titulo-projectos {
     text-align: center;
     margin: 50px 0;
@@ -255,7 +286,7 @@ div.titulo-projectos h1 {
     font-weight: normal;
     padding: 10px 0;
     font-size: 30px;
-    color: rgb(11, 9, 37);
+    color: rgb(23, 89, 119);
 }
 .box-single .div-border .box-single-content p {
     font-weight: lighter;
@@ -534,6 +565,13 @@ div.box-especialista {
     }
     .experiencia-h2 {
         text-align: center;
+    }
+    .experiencia{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+
     }
     .w25,
     .w100,
