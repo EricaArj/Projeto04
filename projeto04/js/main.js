@@ -7,7 +7,7 @@ document.addEventListener('scroll', () => {
     var scroll_position = window.scrollY;
     var header = document.querySelector('.fixed');
     if (scroll_position > 500) {
-        header.style.backgroundColor = 'rgb(11, 109, 112)';
+        header.style.backgroundColor = 'rgb(8, 107, 181)';
         header.style.boxShadow = "-3px 2px 10px rgba(0, 0, 0, 0.281)";      
     } else {
         header.style.backgroundColor = 'transparent';
