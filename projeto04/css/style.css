@@ -636,6 +636,27 @@ div.box-especialista {
         margin-top: 10px;
     }
 }
+/* Estilos para dispositivos móveis */
+@media (max-width: 767px) {
+    /* Ajustar o tamanho da fonte */
+    .experiencia h2 {
+        font-size: 1.8em; /* Exemplo de tamanho de fonte responsiva */
+    }
+    .experiencia p {
+        font-size: 1em; /* Exemplo de tamanho de fonte responsiva */
+    }
+
+    /* Centralizar o texto */
+.experiencia .content {
+        text-align: center;
+    }
+
+/* Adicionar espaçamento entre os parágrafos */
+    .experiencia p {
+        margin-bottom: 15px;
+    }
+
+}
 
 .box-single-especialista-img {
 width: 200px; /* Defina a largura desejada para a imagem */

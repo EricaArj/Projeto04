@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="shortcut icon" href="img/favico.png" type="image/x-icon">
+    <link rel="shortcut icon" href="" type="">
     <meta name="author" content="Erica">
     <meta charset="UTF-8">
    <meta property="og:title" content="sites/curriculos"/>
@@ -103,7 +103,7 @@ body{background-color:#eee;animation-name:FadeIn;animation-duration:.6s;animatio
     .experiencia-row{flex-direction:column}
     .icon{display:flex;justify-content:center}
     .experiencia-col{margin:20px 0}
-    .experiencia-col .content{width:80%}
+    .experiencia-col .content{width:100%}
     .experiencia-col .icon{width:20%}
     .experiencia-h2{text-align:center; }
     .w100,.w25,.w50{width:100%}
@@ -121,6 +121,23 @@ body{background-color:#eee;animation-name:FadeIn;animation-duration:.6s;animatio
     @media (max-width:330px){.medias-footer2{margin-top:10px}}
     .fixed{position:fixed;top:0;width:100%;margin:0 auto;right:0;left:0;z-index:1030;transition:1s}
     @media (max-width:768px){.fixed{padding-left:20px;position:fixed;top:0;margin:0 auto;right:0;left:0;z-index:1030}}
+    @media (max-width: 767px) {
+    .experiencia h2 {
+        font-size: 1.8em; 
+    }
+    .experiencia p {
+        font-size: 1em;
+    }
+
+    .experiencia .content {
+        text-align: center;
+    }
+
+    .experiencia p {
+        margin-bottom: 15px;
+    }
+
+}
     .show-scroll{bottom:5rem}
     .scrollup{border:1px solid #000;padding:5px;border-radius:50%;position:fixed;right:1.9rem;bottom:5%;transition:1s}
     .scrollup:hover{background-color:rgb(8, 107, 181);color:#fff}
@@ -188,11 +205,13 @@ body{background-color:#eee;animation-name:FadeIn;animation-duration:.6s;animatio
             <h2 class="experiencia-h2" data-aos="fade-up">CURRÍCULO VIRTUAL</h2>
             <div class="experiencia-row">
                 <div class="experiencia-col" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                    <div class="content">
-                        <p>Somos um grupo de profissionais estusiasta e estudantes em tecnologia, se especializando em arquitetura de Nuvem AWS.
-                        Nosso objetivo é o crescimento como profissionais tecnologia e nos colocarmos no mercado com maior visibilidade.
-                        Aqui neste site você poderá encontrar um pouco mais de quem somos, nossas Soft Skill e Hard Skill. Convidamos a visitar e analisar nossos currículos para fecharmos parcerias para o crescimento do seu negócio e nosso crescimento profissional.
-                        </p>
+                    <div class="box-single-especialista-content">
+                        <div class="content">
+                            <p>Somos um grupo de profissionais entusiastas e estudantes em tecnologia, especializando-se em arquitetura de Nuvem AWS.
+                            Nosso objetivo é o crescimento como profissionais de tecnologia e nos destacarmos no mercado com maior visibilidade.
+                            Aqui neste site, você pode encontrar um pouco mais sobre nós, nossas Soft Skills e Hard Skills. Convidamos você a visitar e analisar nossos currículos para fecharmos parcerias para o crescimento do seu negócio e nosso crescimento profissional.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
