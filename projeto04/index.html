@@ -44,11 +44,11 @@ body{background-color:#eee;animation-name:FadeIn;animation-duration:.6s;animatio
     .btn-gordo{outline:0;cursor:pointer;padding:9px 25px;margin-top: 20px;border:1px solid rgb(8, 107, 181);background-color:rgb(8, 107, 181);font-size:20px;color:#fff;border-radius:20px;margin-right:10px}
     .seta i{margin-top:50px;font-size:30px;display:block;cursor:pointer;text-align:center;position:relative;animation-name:SobeDesce;animation-duration:1.5s;animation-timing-function:ease-int;animation-iteration-count:infinite;animation-fill-mode:both}
     .seta a{color:#fff}@keyframes SobeDesce{0%,100%{top:10px}50%{top:25px}}
-    .experiencia h3,.experiencia p {color: rgb(8, 42, 51);text-align: center;margin: 50px;padding: 50px;font-size: 24px;}
+    .experiencia h3,.experiencia p {color: rgb(8, 42, 51);text-align: center;margin: 25px;padding: 25px;font-size: 22px;}
     .experiencia-row {display: flex;justify-content: center;}
     .experiencia {padding: 20px;}
-    .experiencia {padding-top: 80px;padding-bottom: 80px;padding-left: 60px;padding-right: 60px;}
-    .experiencia h2{font-size:52px;color: #086BB5;text-align: center;margin: 20px;padding: 20px;}
+    .experiencia {padding-top: 0px;padding-bottom: 0px;padding-left: 40px;padding-right: 40px;}
+    .experiencia h2{font-size:52px;color: #086BB5;text-align: center;margin: 55px;padding: 0px;}
         
     div.titulo-projectos{text-align:center;margin:50px 0;position:relative}
     div.titulo-projectos .line{background-color:#086bb5;position:absolute;top:40px;left:0;height:3px;z-index:-1;width:100%;padding:0 5%;margin:0 auto}
@@ -117,8 +117,9 @@ body{background-color:#eee;animation-name:FadeIn;animation-duration:.6s;animatio
     @media (max-width:540px){.btn-gordo{margin-top:20px}
     .titulo-contacto{font-size:30px}
     div.titulo-projectos h1{font-size:3rem}}
-    @media (max-width:420px){.titulo-contacto{font-size:27px}}
-    @media (max-width:330px){.medias-footer2{margin-top:10px}}
+    @media (max-width:420px){.titulo-contacto{font-size:25px}}
+    @media (max-width:330px){.medias-footer2{margin-top:10px}.titulo-contacto{font-size:22px}}
+
     .fixed{position:fixed;top:0;width:100%;margin:0 auto;right:0;left:0;z-index:1030;transition:1s}
     @media (max-width:768px){.fixed{padding-left:20px;position:fixed;top:0;margin:0 auto;right:0;left:0;z-index:1030}}
     @media (max-width: 767px) {
@@ -138,6 +139,14 @@ body{background-color:#eee;animation-name:FadeIn;animation-duration:.6s;animatio
     }
 
 }
+@media (max-width: 267px) {
+  .experiencia-col {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
     .show-scroll{bottom:5rem}
     .scrollup{border:1px solid #000;padding:5px;border-radius:50%;position:fixed;right:1.9rem;bottom:5%;transition:1s}
     .scrollup:hover{background-color:rgb(8, 107, 181);color:#fff}
@@ -192,25 +201,24 @@ body{background-color:#eee;animation-name:FadeIn;animation-duration:.6s;animatio
         <div class="container">
             <section class="banner">
                 <p class="p-banner">Nós somos Currículo virtual</p>
-                <h1>Divulgamos currículos</h1>
-                <p class="p-end-banner">A Melhor solução para o seu Futuro</p>
-                <div class="seta">
-                    <i class="fa fa-arrow-down"></i>
-                </div>
             </section>
         </div>
     </header>
+
     <section class="experiencia" id="about">
         <div class="container">
             <h2 class="experiencia-h2" data-aos="fade-up">CURRÍCULO VIRTUAL</h2>
             <div class="experiencia-row">
                 <div class="experiencia-col" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                     <div class="box-single-especialista-content">
-                        <div class="content">
-                            <p>Somos um grupo de profissionais entusiastas e estudantes em tecnologia, especializando-se em arquitetura de Nuvem AWS.
-                            Nosso objetivo é o crescimento como profissionais de tecnologia e nos destacarmos no mercado com maior visibilidade.
-                            Aqui neste site, você pode encontrar um pouco mais sobre nós, nossas Soft Skills e Hard Skills. Convidamos você a visitar e analisar nossos currículos para fecharmos parcerias para o crescimento do seu negócio e nosso crescimento profissional.
-                            </p>
+                        <div class="container">
+                
+                                <p class="p-content-especialista">
+                                    Somos um grupo de profissionais entusiastas e estudantes em tecnologia, especializando-se em arquitetura de Nuvem AWS.
+                                    Nosso objetivo é o crescimento como profissionais de tecnologia e nos destacarmos no mercado com maior visibilidade.
+                                    Aqui neste site, você pode encontrar um pouco mais sobre nós, nossas Soft Skills e Hard Skills. Convidamos você a visitar e analisar
+                                     nossos currículos para fecharmos parcerias para o crescimento do seu negócio e nosso crescimento profissional.</p>
+                               
                         </div>
                     </div>
                 </div>
